@@ -356,10 +356,10 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "node index.js"
-  },
+  "build": "chmod +x node_modules/.bin/vite && vite build",
+  "dev": "vite",
+  "start": "vite preview"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
